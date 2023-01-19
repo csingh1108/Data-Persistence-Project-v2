@@ -11,7 +11,7 @@ public class HighscoreTable : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.H))
+        if (Input.GetKeyDown(KeyCode.Alpha2))
         {
             reverse = !reverse;
             highscoretable.SetActive(reverse);
